@@ -1,0 +1,289 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Bebas Neue', cursive;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/* header Section start */
+.header-section{
+	width: 100%;
+	padding: 0px;
+	background: url("../images/banner.png")  center top no-repeat;
+	background-size: cover;
+}
+.header-section .main-menu{
+	width: 100%;
+}
+.header-section .main-menu img{
+
+}
+.header-section .main-menu .bg-light{
+	background: transparent !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #3d2514;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 15px;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	border: 2px solid #3d2514;
+	border-radius: 5px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, .header-section .navbar-light .navbar-nav .nav-link:focus{
+	border: 2px solid #3d2514;
+	border-radius: 5px;
+}
+.header-section .banner{
+	width: 100%;
+	padding: 120px 0px;
+	color: #3d2514;
+	padding-bottom: 220px;
+}
+.header-section .banner p {
+    margin-top: 50px;
+    margin-bottom: 0.8rem;
+    border: 1px dashed #3d2514;
+    display: inline-block;
+    padding: 6px;
+    font-size: 18px;
+}
+.header-section .banner h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 112px;
+}
+.header-section .banner h3{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 42px;
+	margin-top: -12px;
+}
+
+/* Feature box */
+.feature-section{
+	width: 100%;
+	padding: 60px 0px;
+}
+.feature-section .fcolumn{
+	width: 100%;
+}
+
+.feature-section .fcolumn .card{
+	background: url('../images/b1.png') center top no-repeat;
+	background-size: cover;
+	height: 336px;
+	margin-bottom: 15px;
+	width: inherit;
+}
+
+.feature-section .card .card-text {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.feature-section .card .card-title{
+	color: #fff;
+	font-size: 30px;
+}
+
+.feature-section .inner-cards .fcard1 .card{
+	background: url('../images/b2.png') center top no-repeat;
+	background-size: cover;
+	height: 157px;
+	margin-bottom: 10px;
+}
+
+.feature-section .inner-cards .fcard2 .card{
+	background: url('../images/b3.png') center top no-repeat;
+	background-size: cover;
+	height: 157px;
+}
+/* Menu Section */
+.menu{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+.menu .menu-title{
+	width: 100%;
+}
+.menu .menu-title .btn-info {
+    padding: 5px 35px;
+    background-color: #ffc045;
+    border: 1px solid #ffc045;
+    border-radius: 0px;
+    color: #3d2514;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.menu .menu-title h2 {
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-size: 42px;
+}
+.menu .menu-title p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #3d2514;
+}
+
+.menu .menu-card{
+	width: 100%;
+	padding: 60px 0px;
+}
+.menu .menu-card .card{
+	border: none;
+	box-shadow: 3px 3px 10px 6px #eee;
+	transition: .3s;
+	border-radius: 10px;
+	padding: 20px 0px;
+	transition: 1s; 
+}
+.menu .menu-card .card img{
+	align-self: center;
+}
+.menu .menu-card .card:hover, .menu .menu-card .card:focus{
+	transform: scale(1.1);
+}
+.menu .menu-card .card-title{
+	color: #3d2514;
+    font-size: 26px;
+}
+.menu .menu-card .card-text{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #3d2514;
+	margin-bottom: 10px;
+}
+.menu .menu-card .btn-primary {
+    background-color: #bf2222;
+    font-size: 11px;
+    border-radius: 0px;
+    padding: 10px 25px;
+    font-family: 'Alfa Slab One', cursive;
+    border: 1px solid #bf2222;
+    border-radius: 20px;
+    transition: .5s;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.menu .menu-card .btn-primary:hover, .menu .menu-card .btn-primary:focus{
+	background-color: #e12828;
+	border: 1px solid #e12828;
+}
+
+/* Book Section */
+.book{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+.book .title{
+	text-align: center;
+}
+.book .title h3{
+	text-transform: uppercase;
+    color: #3d2514;
+}
+.book .title h1{
+	font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-size: 42px;
+}
+
+.form-section{
+	width: 60%;
+	padding: 60px 0px;
+	margin: 0px auto;
+
+}
+.form-section .form-group a{
+	background-color: #bf2222;
+	border: 2px solid #bf2222;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.form-section .form-group a:hover, .form-section .form-group a:focus{
+	background-color: transparent;
+	color: #bf2222;
+}
+
+
+.footer-section{
+	width: 100%;
+	background: url("../images/contact.png") center top no-repeat;
+	background-size: cover;
+}
+.footer-section img {
+    margin-top: 30px;
+}
+.footer-section .fpara{
+	padding: 70px 0px;
+}
+.footer-section .fpara p {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 20px;
+}
+.footer-section .fli p {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+.footer-section .fli .fa{
+	margin-right: 5px;
+}
+.footer-section .fbottom{
+	width: 100%;
+
+}
+.footer-section .fbottom .fbtm{
+	color: #fff;
+}
+.footer-section .social-icons{
+	width: 100%;
+}
+
+.footer-section .social-icons ul{
+	padding: 0px;
+	margin: 10px 0px;
+	text-align: right;
+}
+.footer-section .social-icons ul li{
+	display: inline-block;
+	list-style: none;
+
+}
+.footer-section .social-icons ul li a{
+	font-size: 20px;
+	color: #fff;
+	margin-left: 15px;
+	transition: 1s;
+}
+.footer-section .social-icons ul li .fa:hover{
+	color: #ffc045;
+	transform: scale(1.5);
+}

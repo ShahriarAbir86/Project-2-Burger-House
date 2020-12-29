@@ -1,0 +1,108 @@
+
+
+/* ####### Responsive design ######### */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* ******************* */
+  .header-section .banner {
+    padding: 0px 0px;
+    padding-bottom: 60px;
+}
+.header-section .banner h1 {
+    font-size: 30px;
+}
+.header-section .main-menu img {
+    width: 200px;
+}
+.header-section .banner p {
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 10px;
+}
+.header-section .banner h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 21px;
+    margin-top: -7px;
+}
+.feature-section {
+    padding: 0px 0px;
+}
+
+.menu .menu-title h2 {
+    font-size: 30px;
+}
+.book .title h1 {
+    font-size: 30px;
+}
+
+
+  /* ******************* */
+  
+}
+
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* ******************* */
+
+.header-section .banner {
+    padding: 0px 0px;
+    padding-bottom: 60px;
+}
+.header-section .banner h1 {
+    font-size: 36px;
+}
+.header-section .banner p {
+    margin-top: 10px;
+}
+.header-section .banner p {
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+
+  /* ******************* */
+  
+}
+
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) 
+and (orientation: landscape) {
+  /* ******************* */
+.header-section .banner {
+    padding: 70px 0px;
+    padding-bottom: 0px;
+}
+.header-section .banner p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+  /* ******************* */
+  
+}
